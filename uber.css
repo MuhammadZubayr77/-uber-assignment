@@ -1,0 +1,253 @@
+body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    box-sizing: border-box;
+}
+
+nav {
+    background-color: black;
+    width: 100%;
+    height: 9vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    position: sticky;
+    top: 0px;
+    z-index: 100;
+}
+
+.nav-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 30px;
+    cursor: pointer;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+    /* justify-content: ; */
+    gap: 30px;
+    cursor: pointer;
+    margin-right: 40px;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+}
+
+.en {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.select {
+    padding: 6px 9px;
+    background-color: rgb(53, 53, 53, 0.5);
+    border-radius: 25px;
+}
+
+.select:hover {
+    background-color: #323232;
+}
+
+.signup {
+    color: black;
+    background-color: white;
+    padding: 8px 15px;
+}
+
+.signup:hover {
+    background-color: #E5E5E5;
+}
+
+.hero {
+    margin-top: 200px;
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    height: 300vh;
+    width: 100%;
+}
+
+.flex-items {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: auto 20px;
+    /* margin-top: 100px; */
+    padding-top: 80px;
+}
+
+.right-flex {
+    width: 30vw;
+    height: 70vh;
+    background-image: url("./heropic.webp");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.left-flex {
+    margin-left: -100px;
+    font-family: "Roboto", sans-serif;
+}
+
+.lagos {
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.lagos a {
+    color: white;
+    font-family: "Roboto", sans-serif;
+    margin-left: 5px;
+}
+
+.go {
+    color: white;
+    font-family: "Roboto", sans-serif;
+}
+
+.ready {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgb(255, 255, 255, 0.4);
+    backdrop-filter: blur(6px);
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    width: 80%;
+    height: 9vh;
+    border-radius: 10px;
+    cursor: default;
+    font-family: "Roboto", sans-serif;
+    font-size: 17px;
+}
+
+.schedule {
+    background-color: white;
+    border-radius: 30px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.pick-up {
+    width: 14vw;
+    height: 7vh;
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px 16px;
+}
+
+.pick-up-location {
+    width: 30vw;
+    height: 8vh;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 15px;
+    padding: 1px 16px;
+    position: relative;
+}
+
+.clo {
+    margin-right: 20px;
+}
+
+.abs {
+    position: absolute;
+    right: 0;
+    margin-right: 15px;
+}
+
+.drop-off-location {
+    width: 30vw;
+    height: 8vh;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    margin-top: 15px;
+    padding: 1px 10px;
+}
+
+.btn {
+    width: 12vw;
+    height: 8vh;
+    background-color: white;
+    border-radius: 20px;
+    margin-top: 15px;
+    border: none;
+}
+
+.log {
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+.to-flex {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-left: 100px;
+}
+
+.wrap {
+    width: 27vw;
+    height: 23vh;
+    border-radius: 20px;
+    background-color: #292929;
+}
+
+.seniors {
+    justify-self: start;
+}
+
+.explore {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    margin-left: 95px;
+    margin: 50px 95px;
+}
+
+.how-to {
+    font-family: "Roboto", sans-serif;
+    color: white;
+    margin-left: 95px;
+    margin: 50px 95px;
+    margin-top: 100px;
+}
+
+.toflex-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
