@@ -1,0 +1,81 @@
+/* ========== GLOBAL FIXES ========== */
+img { max-width: 100%; height: auto; }
+
+.hero {
+    height: auto;          /* 300vh is why you get a giant black void */
+    min-height: 100vh;
+    padding-bottom: 80px;
+}
+
+/* ========== TABLET (≤ 1024px) ========== */
+@media (max-width: 1024px) {
+    nav {
+        height: auto;
+        min-height: 64px;
+        padding: 8px 16px;
+        box-sizing: border-box;
+    }
+    .right, .left { gap: 12px; }
+    .left { margin-right: 0; }
+
+    .flex-items {
+        flex-direction: column;
+        align-items: stretch;
+        margin: 0 24px;
+        padding-top: 40px;
+        gap: 32px;
+    }
+    .left-flex { margin-left: 0; }   /* the -100px was shoving it off-screen */
+
+    .pick-up, .pick-up-location, .drop-off-location, .btn, .ready, .wrap {
+        box-sizing: border-box;
+    }
+    .pick-up { width: 220px; height: 52px; }
+    .pick-up-location,
+    .drop-off-location { width: 100%; max-width: 560px; height: 56px; }
+    .btn { width: 180px; height: 52px; font-size: 16px; margin-right: 20px; }
+
+    .right-flex { width: 100%; height: 360px; border-radius: 16px; }
+    .ready { width: calc(100% - 40px); height: auto; min-height: 64px; }
+
+    .to-flex { margin: 0 24px; }
+    .wrap { width: calc(50% - 8px); height: auto; min-height: 140px; }
+
+    .explore, .how-to { margin: 50px 24px 24px; }
+    .how-to { margin-top: 70px; }
+
+    .toflex-2 { flex-wrap: wrap; gap: 24px; padding: 0 24px; }
+    .toflex-2 > div { flex: 1 1 240px; text-align: center; }
+    .toflex-2 img { width: 100%; max-width: 320px; }
+}
+
+/* ========== PHONE (≤ 640px) ========== */
+@media (max-width: 640px) {
+    /* nav: logo + login + signup only */
+    nav .right .select,
+    nav .left .en,
+    nav .left .help { display: none; }
+    .uber-logo img { width: 100px; }
+    .login, .signup { font-size: 14px; }
+
+    .flex-items { margin: 0 16px; padding-top: 24px; gap: 24px; }
+    .go { font-size: 2rem; margin: 12px 0; }
+
+    .pick-up { width: 200px; }
+    .pick-up-location,
+    .drop-off-location { max-width: none; }
+    .btn { width: 30%; margin-right: 0; }
+    .log { display: inline-block; margin-top: 16px; }
+
+    .right-flex { height: 280px; }
+    .ready { font-size: 14px; padding: 10px 12px; gap: 8px; }
+    .schedule { padding: 10px 14px; white-space: nowrap; }
+
+    .to-flex { margin: 0 16px; }
+    .wrap { width: 100%; }
+    .side-image img { width: 110px; }
+
+    .explore, .how-to { font-size: 1.5rem; margin: 40px 16px 20px; }
+
+    .toflex-2 { flex-direction: column; padding: 0 16px; }
+}

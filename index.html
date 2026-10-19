@@ -3,8 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Uber | Get a ride from anywhere, anytime</title>
+    <link rel="shortcut icon" href="./images-removebg-preview.png" type="image/x-icon">
     <link rel="stylesheet" href="./uber.css">
+    <link rel="stylesheet" href="./responsiveness.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&family=Google+Sans+Flex:opsz,wght@6..144,1..1000&family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&family=Manrope:wght@200..800&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap" rel="stylesheet">
@@ -30,7 +32,7 @@
             </div>
             <div class="left">
                 <div class="en select">
-                    <img src="./fontisto--world-o.svg" alt="">
+                    <img src="./fontisto--world-o.svg" alt="" class="en-img">
                     <span>EN</span>
                 </div>
                 <div class="help select">Help</div>
@@ -38,6 +40,10 @@
                 <div class="signup select">Sign Up</div>
             </div>
     </nav>
+
+    <div class="see-p">
+        <div class="see-price">See Prices</div>
+    </div>
 
     <section class="hero">
         <div class="flex-items">
@@ -85,12 +91,33 @@
                 <div class="texts">
                     <p class="rid">Ride</p>
                     <p class="anywhere">Go anywhere with Uber. Request a ride, hop in, and go.</p>
+
+                    <a href="https://www.ea.com">
+                        <button class="details">Details</button>
+                    </a>
                 </div>
                 <div class="side-image">
                     <img src="./car.png" alt="" width="150px">
                 </div>
             </div>
-            <div class="reserve wrap"></div>
+            <div class="reserve wrap">
+
+
+                <div class="texts">
+                    <p class="rid">Reserve</p>
+                    <p class="anywhere">Reserve your ride in advance so you can relax on the day of your trip.</p>
+
+                    <a href="https://www.ea.com">
+                        <button class="details">Details</button>
+                    </a>
+                </div>
+                <div class="side-image">
+                    <img src="./car.png" alt="" width="150px">
+                </div>
+            </div>
+
+
+            </div>
             <div class="airport wrap"></div>
             <div class="seniors wrap"></div>
         </div>
@@ -102,18 +129,36 @@
         <div class="toflex-2">
             <!-- <div class="started"> -->
                 <div class="start-img">
-                    <img src="./key.webp" alt="" width="360px">
+                    <img src="./key.webp" alt="" width="310px">
+
+                    <p class="destination">
+                    Enter your destination on Uber.com or in the Uber app. Choose a ride and confirm.
+                    </p>
                 </div>
+
+                
             <!-- </div> -->
             <!-- <div class="match"> -->
                 <div class="match-img">
-                    <img src="./profile.webp" alt="" width="360px">
+                    <img src="./profile.webp" alt="" width="310px">
+
+                    <p class="nearby">
+                    A nearby driver accepts your request. You'll be notified when they're close.
+                    </p>
                 </div>
+
+                
             <!-- </div> -->
             <!-- <div class="meet"> -->
                 <div class="meet-img">
-                    <img src="./verified.webp" alt="" width="360px">
+                    <img src="./verified.webp" alt="" width="310px">
+
+                    <p class="verify">
+                    Verify your driver's name, vehicle details and your destination, then enter the vehicle.
+                    </p>
                 </div>
+
+                
             <!-- </div> -->
         </div>
     </section>
